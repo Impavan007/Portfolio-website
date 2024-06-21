@@ -1,0 +1,36 @@
+.Intro{
+   
+   
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.Intro h1{
+    font-size: 4vw;
+   
+    overflow: hidden;
+}
+.Intro span{
+display: inline-block;
+
+
+}
+.Intro2{
+   
+   
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.Intro2 h1{
+    font-size: 4vw;
+   
+    overflow: hidden;
+}
+.Intro2 span{
+display: inline-block;
+
+
+}

@@ -1,0 +1,40 @@
+.hexagon {
+    position: relative;
+    width: 100px;
+    height: 57.74px;
+    background-color: #1e90ff;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 28.87px solid #1e90ff;
+}
+
+.hexagon:after {
+    top: 100%;
+    border-top: 28.87px solid #1e90ff;
+}
+
+.hexagon:hover {
+    background-color: yellow;
+   
+}
+
+.hexagon:hover:before {
+    border-bottom-color: yellow;
+}
+
+.hexagon:hover:after {
+    border-top-color: yellow;
+}
